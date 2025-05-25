@@ -1,4 +1,5 @@
-import { View, Text, Image, StyleSheet, Dimensions, Platform } from 'react-native';
+import React from 'react';
+import { View, Text, Image, StyleSheet, Platform } from 'react-native';
 
 export default function Header() {
   return (
