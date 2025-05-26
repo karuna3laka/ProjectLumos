@@ -11,15 +11,15 @@ const ButtonSection = () => {
       </TouchableOpacity>
       <TouchableOpacity style={styles.button}>
         <Icon name="snowflake" size={30} color="#fff" />
-        <Text style={styles.label}>Cool</Text>
+        <Text style={styles.label}>25%</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.button}>
         <Icon name="white-balance-sunny" size={30} color="#fff" />
-        <Text style={styles.label}>Day</Text>
+        <Text style={styles.label}>50%</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.button}>
         <Icon name="weather-night" size={30} color="#fff" />
-        <Text style={styles.label}>Night</Text>
+        <Text style={styles.label}>100%</Text>
       </TouchableOpacity>
     </View>
   );

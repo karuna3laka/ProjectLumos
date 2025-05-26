@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, Switch } from 'react-native';
-import { MaterialCommunityIcons, MaterialIcons } from '@expo/vector-icons';
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 
 const LightControlWidget = () => {
   const [isEnabled, setIsEnabled] = useState(false);
@@ -11,9 +11,9 @@ const LightControlWidget = () => {
     <View style={styles.container}>
       {/* Header with more controls button */}
       <View style={styles.header}>
-        <Text style={styles.title}>Smart Light</Text>
+        <Text style={styles.title}>Control Luminar </Text>
         <TouchableOpacity style={styles.moreButton}>
-          <MaterialIcons name="more-vert" size={24} color="#666" />
+          <Text style={styles.moreButtonText}>More Controls</Text>
         </TouchableOpacity>
       </View>
 
@@ -56,6 +56,7 @@ const styles = StyleSheet.create({
     elevation: 3,
     width: '100%',
     marginVertical: 10,
+    marginHorizontal: 10,
   },
   header: {
     flexDirection: 'row',
@@ -69,25 +70,39 @@ const styles = StyleSheet.create({
     color: '#333',
   },
   moreButton: {
-    padding: 4,
+    backgroundColor: '#f5f5f5', // Light gray background for iOS style
+    borderRadius: 8,
+    paddingVertical: 6,
+    paddingHorizontal: 12,
+    borderWidth: 1,
+    borderColor: '#ddd', // Subtle border for iOS look
+  },
+  moreButtonText: {
+    color: '#007AFF', // iOS blue for actionable text
+    fontSize: 16,
+    fontWeight: '500',
   },
   content: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
+    paddingHorizontal: 20,
+    paddingVertical: 1, // Added margin from widget corners for content
   },
   bulbIcon: {
-    marginRight: 0, // Remove right margin to bring switch closer
+    marginRight: 100,
+    padding: 1, // Remove right margin to bring switch closer
   },
   switchContainer: {
     alignItems: 'center',
-    marginLeft: 8, // Reduced space between bulb and switch
+    marginHorizontal: 20, // Added margin on left and right sides of switch container
+    marginLeft: 50, // Keep the reduced space between bulb and switch
   },
   statusText: {
     fontSize: 14,
     fontWeight: '500',
     color: '#666',
-    marginTop: 4,
+    marginTop: 1,
   },
   switch: {
     transform: [{ scaleX: 1.1 }, { scaleY: 1.1 }],
