@@ -15,7 +15,7 @@ export default function Header() {
     </View>
   );
 }
-
+// heyyy
 const styles = StyleSheet.create({
   header: {
     position: 'absolute',
