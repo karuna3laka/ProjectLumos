@@ -6,7 +6,7 @@ export default function Header() {
     <View style={styles.header}>
       <View>
         <Text style={styles.headerText}>Hey, Kavindu</Text>
-        <Text style={styles.headerText2}>Say Lumoss!</Text>
+        <Text style={styles.headerText2}>Say Lumosss !</Text>
       </View>
       <Image
         source={{ uri: 'https://via.placeholder.com/40' }}
@@ -19,9 +19,9 @@ export default function Header() {
 const styles = StyleSheet.create({
   header: {
     position: 'absolute',
-    top: 30,
-    left: 0,
-    right: 0,
+    top: 0,
+    left: 1,
+    right: 1,
     zIndex: 1000,
     flexDirection: 'row',
     justifyContent: 'space-between',
@@ -30,7 +30,9 @@ const styles = StyleSheet.create({
     backgroundColor: '#1C2526',
     borderBottomLeftRadius: 20,
     borderBottomRightRadius: 20,
-    paddingTop: Platform.OS === 'ios' ? 50 : 20,
+    paddingTop: Platform.OS === 'ios' ? 20 : 20,
+    minHeight: 140,
+
   },
   headerText: {
     color: '#fff',

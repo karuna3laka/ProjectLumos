@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-around',
     padding: 10,
-    marginTop:220,
+    marginTop:280,
   },
   button: {
     alignItems: 'center',
