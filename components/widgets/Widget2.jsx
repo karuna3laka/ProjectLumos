@@ -14,11 +14,12 @@ const ButtonSection = () => {
         <Text style={styles.label}>25%</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.button}>
-        <Icon name="white-balance-sunny" size={30} color="#fff" />
+        <Icon name="weather-night" size={30} color="#fff" />
+
         <Text style={styles.label}>50%</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.button}>
-        <Icon name="weather-night" size={30} color="#fff" />
+        <Icon name="white-balance-sunny" size={30} color="#fff" />
         <Text style={styles.label}>100%</Text>
       </TouchableOpacity>
     </View>
