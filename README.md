@@ -28,4 +28,9 @@
 
 ![Screenshot 2025-06-06 163642](https://github.com/user-attachments/assets/917512b4-449e-4750-9638-fda6906894e3)
 
+👤 Author
+Kavindu Vidushan Karunathilaka
+GitHub | LinkedIn | Medium
+
+
 
