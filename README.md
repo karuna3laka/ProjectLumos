@@ -1,50 +1,31 @@
-# Welcome to your Expo app 👋
+# 💡 Project Lumos – IoT Smart Light Control App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+> A React Native + Firebase mobile application that enables real-time control of room lighting using IoT (ESP32/ESP8266). Built with Expo for rapid development and tested across Android devices.
 
-## Get started
+---
 
-1. Install dependencies
+## 🛠 Tech Stack
 
-   ```bash
-   npm install
-   ```
+- **Frontend:** React Native (Expo)
+- **Backend:** Firebase Realtime Database
+- **IoT:** ESP32/ESP8266 (planned integration)
+- **Tools:** Docker, Firebase Auth
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 🚀 Features
 
-In the output, you'll find options to open the app in a
+✅ Real-time light control via mobile app  
+✅ Firebase Realtime Database integration  
+✅ Secure login via Firebase Authentication  
+✅ Scalable component structure with Expo SDK  
+✅ Docker setup for modular testing and CI-ready  
+🔄 Planned: ESP32 Wi-Fi-based control synchronization
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 📸 Screenshots
 
-## Get a fresh project
+![Screenshot 2025-06-06 163642](https://github.com/user-attachments/assets/917512b4-449e-4750-9638-fda6906894e3)
 
-When you're ready, run:
 
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
